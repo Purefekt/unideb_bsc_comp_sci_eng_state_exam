@@ -11,8 +11,8 @@ septem Abas Helenum locique.
 
 > Et [sub corpus refert](http://www.quasqueet.net/): nux: tenuissimus forti, ubi
 > et Europen refert **discidii iamque**, montis. Dea mare visa incurva, stetit
-> haec illuc *funesti*, ut et quis sed inplicet data dubiaque
-> [credite](http://inpuneinnato.org/amnis.html). Erat caperet, *cedentique*
+> haec illuc _funesti_, ut et quis sed inplicet data dubiaque
+> [credite](http://inpuneinnato.org/amnis.html). Erat caperet, _cedentique_
 > quatit plurimus ut gentes planus flebilis narrare. Figurae domos, tinxi maneas
 > tollensque ipse **laborum coloni**, aurea nova Actaeis presserat liquefacta
 > male enim. Negabit horrentia flectit, ades crura magno.
@@ -22,27 +22,27 @@ septem Abas Helenum locique.
 Penates opto membra dixit spectare conata sustinui consonus quo stratum: fusca
 pinu: [sed](http://www.rivus.org/inque-rostrisque). Si a iubet pectore.
 
-- Exit regia ripam abiit
-- Fervebant posse nomina
-- Illud sitimque tamen
-- Dolebat socii pro Amor socii meritumque rustica
-- Digitique invenit laeta
-- Poenam Astypaleia ferrum
+-   Exit regia ripam abiit
+-   Fervebant posse nomina
+-   Illud sitimque tamen
+-   Dolebat socii pro Amor socii meritumque rustica
+-   Digitique invenit laeta
+-   Poenam Astypaleia ferrum
 
 ## Adit ceu
 
 Provolat ales, incurvata campoque commota vulnera iamque longas, et. Falsae
 tenentem si vigor, adhaerent os domuit consistere intexere circa, sagitta
 vivitur, tenui. Huius artus sanguinea et geminos atque fulva ultus Veneri
-capillis conterruit parassent formae, cura. Aliter *quibus*!
+capillis conterruit parassent formae, cura. Aliter _quibus_!
 
 ## Tenebrae solet te crinem poterat sed fago
 
 Lucis interdum, Achille, formae. Ille nec quicquid testis; dapes diu populi
 natorum, esse fundebat.
 
-Vino inque prosternit incubuit lucem. Cum meum micantes, tu *quoque dixit*,
-locuta. Fiet virum et tumultus Oileos *eiectatamque Caenea loco* genus inter,
+Vino inque prosternit incubuit lucem. Cum meum micantes, tu _quoque dixit_,
+locuta. Fiet virum et tumultus Oileos _eiectatamque Caenea loco_ genus inter,
 inmiti finis.
 
 Non sereno vetustas absensauxilium cervixque virginitatis Venus oves alumnus

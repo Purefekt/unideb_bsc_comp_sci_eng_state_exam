@@ -1,6 +1,6 @@
 site_name: State Exam CSE | Veer Singh
 site_url: https://veer-singh.com/unideb_bsc_comp_sci_eng_state_exam/
 nav:
-    - Home: index.md
-    - About: about.md
+    - Introduction: index.md
+    - About the Author: 2_about_the_author.md
 theme: readthedocs
