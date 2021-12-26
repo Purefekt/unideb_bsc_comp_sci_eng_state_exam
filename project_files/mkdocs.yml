@@ -3,4 +3,6 @@ site_url: https://veer-singh.com/unideb_bsc_comp_sci_eng_state_exam/
 nav:
     - Introduction: index.md
     - About the Author: 2_about_the_author.md
+    - Importance of the State Exam: 3_importance_of_state_exam.md
+    - My State Exam Experience: 4_my_state_exam_experience.md
 theme: readthedocs
