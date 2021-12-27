@@ -13,5 +13,5 @@
 -   Then they called all of us inside, all the board members were now standing and the 9 of us were standing on the opposite side.
 -   The president of the board asked for our consent to say the grades out loud and he started telling the grades of the thesis defense and the state exam in the original order.
 -   Since I was the first, he said 5 in thesis defense and 5 in state exam and then moved on to the others.
--   Once everyone's grades were told, everyone shook hands and left. A few hours after that, I got a message on Neptun that my student status has been changed to 'Graduated' and on Neptun -> `CHANGE` I saw the final grade there.
+-   Once everyone's grades were told, everyone shook hands and left. A few hours after that, I got a message on Neptun that my student status has been changed to 'Graduated' and my final grade was available on Neptun -> Studies -> Training Data under the Diploma section.
 -   10 days after this, I got my original Degree Certificate and Diploma Supplement. The degree certificate is a single-page document saying you graduated from this university in this course. The diploma supplement includes more detailed information including the transcript of all courses taken.
