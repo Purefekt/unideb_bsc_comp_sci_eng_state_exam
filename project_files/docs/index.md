@@ -2,6 +2,8 @@
 
 **PLEASE READ ALL THE SECTIONS BEFORE STARTING THE QUESTIONS**
 
+**TO CORRECT TYPOS, GRAMMATICAL ERRORS SEE CONTRIBUTING SECTION**
+
 -   The state exam is a 20-minute speech that the student must give in front of 5-6 board members.
 -   The topic is randomly chosen using a random number generator and comes from a pool of 15 pre-defined topics posted [HERE](https://www.inf.unideb.hu/en/node/1826), under the heading 'Final exam topics'. You must log in using your Neptun ID to access this page. This link might change in the future, in which case please let me know by contributing on GitHub or sending me an email.
 -   These are the solutions to 'who started after 2017/2018/1'.
