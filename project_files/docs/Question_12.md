@@ -1,0 +1,1 @@
+# 12. `PART 1` Entity-relationship (ER) model, design with ER diagrams. Relational data model, relation, scheme, attribute. Building up a relational scheme from an ER-diagram. `PART 2` Diodes. Rectifiers. DC to DC converters. Voltage regulators. Current regulators.

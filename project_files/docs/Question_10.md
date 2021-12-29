@@ -1,0 +1,1 @@
+# 10. `PART 1` Configuration of a web server using SSL, the OpenSSL cryptographic library: authentication, encryption. `PART 2` The instruction set architecture (ISA) of Intel X86 processors (registers, addressing, instructions, memory architecture, interrupt system)

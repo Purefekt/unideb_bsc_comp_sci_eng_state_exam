@@ -1,4 +1,4 @@
-# 6. [PART 1] Sequential logical: Latches and Flip-Flops. Counters. Shift registers. Memories. [PART 2] New elements of HTML5. New features of CSS3. Control structures in web scripts. Sensor through a web page. Providing remote management systems through a web page.
+# 6. `PART 1` Sequential logical: Latches and Flip-Flops. Counters. Shift registers. Memories. `PART 2` New elements of HTML5. New features of CSS3. Control structures in web scripts. Sensor through a web page. Providing remote management systems through a web page.
 
 ## Part 1
 

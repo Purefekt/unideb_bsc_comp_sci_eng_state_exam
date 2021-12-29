@@ -1,4 +1,4 @@
-# 7. [PART 1] Provide the necessary steps and technologies for developing a sample software product on a choosen platform. Describe the benefits and difficulties of the platform, the implementation steps, and the most widely used current technologies. [PART 2] Implementation of control structures in assembly (control program flow, branching, looping)
+# 7. `PART 1` Provide the necessary steps and technologies for developing a sample software product on a choosen platform. Describe the benefits and difficulties of the platform, the implementation steps, and the most widely used current technologies. `PART 2` Implementation of control structures in assembly (control program flow, branching, looping)
 
 ## Part 1
 

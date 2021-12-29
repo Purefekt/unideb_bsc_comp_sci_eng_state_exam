@@ -1,0 +1,1 @@
+# 14. `PART 1` Explain the NAT/PAT address translation mechanisms. `PART 2` Basic notions concerning data structures: modelling, abstraction, abstract data types. Elementary data structures: lists, stacks, queues. Sets, multisets, arrays. The representation of trees, tree traversal, deletion and insertion.

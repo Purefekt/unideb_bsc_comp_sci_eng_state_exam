@@ -1,4 +1,4 @@
-# 9. [PART 1] Programmable logic devices. Designing a digital system in hardware description language, and implementing it in FPGA devices. [PART 2] Basic concepts of system engineering, different paradigms. Characteristics of the classical methods: waterfall, evolution, incremental, agile methods. Fundamentals and patterns of OOdesign. MVC
+# 9. `PART 1` Programmable logic devices. Designing a digital system in hardware description language, and implementing it in FPGA devices. `PART 2` Basic concepts of system engineering, different paradigms. Characteristics of the classical methods: waterfall, evolution, incremental, agile methods. Fundamentals and patterns of OOdesign. MVC
 
 ## Part 1
 

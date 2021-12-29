@@ -1,4 +1,4 @@
-# 5. [PART 1] Present the adversarial searches and the conditions necessary for the existence of a winning strategy. [PART 2] MOS transistor: large signal model and characteristics. The MOS transistor as a switch. CMOS inverter, basic logic gates. The operational amplifier. Negative feedback. Basic applications.
+# 5. `PART 1` Present the adversarial searches and the conditions necessary for the existence of a winning strategy. `PART 2` MOS transistor: large signal model and characteristics. The MOS transistor as a switch. CMOS inverter, basic logic gates. The operational amplifier. Negative feedback. Basic applications.
 
 ## Part 1
 

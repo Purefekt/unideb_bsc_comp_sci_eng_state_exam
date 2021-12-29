@@ -1,4 +1,4 @@
-# 3. [PART 1] Combinational logic design. Multiplexers/Demultiplexers. Encoders/Decoders. Comparators. Parity generators/checkers. Arithmetical logical units. [PART 2] Present the general problem solving methods and compare them with the methods for solving constraint satisfaction problems.
+# 3. `PART 1` Combinational logic design. Multiplexers/Demultiplexers. Encoders/Decoders. Comparators. Parity generators/checkers. Arithmetical logical units. `PART 2` Present the general problem solving methods and compare them with the methods for solving constraint satisfaction problems.
 
 ## Part 1
 

@@ -1,0 +1,1 @@
+# 15. `PART 1` Basic concepts of object-oriented paradigm. Class, object, instantiation. Inheritance, class hierarchy. Polymorphism, method overloading. Scoping, information hiding, accessibility levels. Abstract classes and interfaces. Class diagram of UML. `PART 2` Compare the SNMP and RMON network management systems.

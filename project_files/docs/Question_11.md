@@ -1,0 +1,1 @@
+# 11. `PART 1` Interprocess communication (file, signal, pipe, socket) `PART 2` Time complexity of algorithms: insertion sort, merge sort, searching in linear and logarithmic time. Quick sort, the minimal number of necessary comparisons. Sorting in linear time: radix sort, bucket sort.

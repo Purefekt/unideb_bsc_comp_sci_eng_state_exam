@@ -1,4 +1,4 @@
-# 2. [PART 1] Synthesis of continuous time control systems. The gain and phase margin. Linear systems and their description in time- and frequency domains. Signal transfer in control systems. [PART 2] Explain the data elements of TCP and UDP transport layer protocols, and the differences between their mechanisms.
+# 2. `PART 1` Synthesis of continuous time control systems. The gain and phase margin. Linear systems and their description in time- and frequency domains. Signal transfer in control systems.`PART 2` Explain the data elements of TCP and UDP transport layer protocols, and the differences between their mechanisms.
 
 ## Part 1
 

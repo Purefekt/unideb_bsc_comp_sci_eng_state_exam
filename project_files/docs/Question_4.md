@@ -1,4 +1,4 @@
-# 4. [PART 1] The SSH protocol, key generation, configuration of user settings [PART 2] The principles of control, feedback control and open loop control. Set point control and reference signal tracking, the role of negative feedback. Requirements for control systems.
+# 4. `PART 1` The SSH protocol, key generation, configuration of user settings `PART 2` The principles of control, feedback control and open loop control. Set point control and reference signal tracking, the role of negative feedback. Requirements for control systems.
 
 ## Part 1
 

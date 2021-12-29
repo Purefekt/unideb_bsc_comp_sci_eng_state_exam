@@ -1,4 +1,4 @@
-# 8. [PART 1] Concept, typical applications and requirements of embedded systems. Real-time and reactive systems. Embedded systems architecture. Hardware and software layers. Embedded software: system software layer and application software layer. [PART 2] Functions and services of the MRTG and Nagios network management systems.
+# 8. `PART 1` Concept, typical applications and requirements of embedded systems. Real-time and reactive systems. Embedded systems architecture. Hardware and software layers. Embedded software: system software layer and application software layer. `PART 2` Functions and services of the MRTG and Nagios network management systems.
 
 ## Part 1
 

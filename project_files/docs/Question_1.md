@@ -1,4 +1,4 @@
-# 1. [PART 1] The processor implementation options: Processor technology, implementation techniques and design technologies. Typically peripherals for embedded systems. Communication protocols. [PART 2] Program units. Subprograms. Parameter evaluation. Parameter passing methods. Block. Scoping, accessibility. Abstract data type. Generic programming. I/O tools of programming languages, file handling. Exception handling. Parallel programming.
+# 1. `PART 1` The processor implementation options: Processor technology, implementation techniques and design technologies. Typically peripherals for embedded systems. Communication protocols. `PART 2` Program units. Subprograms. Parameter evaluation. Parameter passing methods. Block. Scoping, accessibility. Abstract data type. Generic programming. I/O tools of programming languages, file handling. Exception handling. Parallel programming.
 
 ## Part 1
 
