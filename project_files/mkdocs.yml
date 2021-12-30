@@ -23,4 +23,5 @@ nav:
     - Question 13: Question_13.md
     - Question 14: Question_14.md
     - Question 15: Question_15.md
+    - Bonus - Final GPA Calculation: 8_final_gpa_calc.md
 theme: readthedocs
