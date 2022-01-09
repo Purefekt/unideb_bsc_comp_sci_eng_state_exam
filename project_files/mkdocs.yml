@@ -1,28 +1,28 @@
 site_name: State Exam CSE | Veer Singh
 site_url: https://veer-singh.com/unideb_bsc_comp_sci_eng_state_exam/
 nav:
-  - Introduction: index.md
-  - About the Author: 2_about_the_author.md
-  - Importance of the State Exam: 3_importance_of_state_exam.md
-  - My State Exam Experience: 4_my_state_exam_experience.md
-  - Other Tips: 5_other_tips.mds
-  - Contribute: 6_contributing.md
-  - Show Your Appreciation: 7_show_your_appreciation.md
-  - Question 1: Question_1.md
-  - Question 2: Question_2.md
-  - Question 3: Question_3.md
-  - Question 4: Question_4.md
-  - Question 5: Question_5.md
-  - Question 6: Question_6.md
-  - Question 7: Question_7.md
-  - Question 8: Question_8.md
-  - Question 9: Question_9.md
-  - Question 10: Question_10.md
-  - Question 11: Question_11.md
-  - Question 12: Question_12.md
-  - Question 13: Question_13.md
-  - Question 14: Question_14.md
-  - Question 15: Question_15.md
-  - Talking Points for Practice: 9_talking_points.md
-  - Bonus - Final GPA Calculation: 8_final_gpa_calc.md
+    - Introduction: index.md
+    - About the Authors: 2_about_the_author.md
+    - Importance of the State Exam: 3_importance_of_state_exam.md
+    - My State Exam Experience: 4_my_state_exam_experience.md
+    - Other Tips: 5_other_tips.mds
+    - Contribute: 6_contributing.md
+    - Show Your Appreciation: 7_show_your_appreciation.md
+    - Question 1: Question_1.md
+    - Question 2: Question_2.md
+    - Question 3: Question_3.md
+    - Question 4: Question_4.md
+    - Question 5: Question_5.md
+    - Question 6: Question_6.md
+    - Question 7: Question_7.md
+    - Question 8: Question_8.md
+    - Question 9: Question_9.md
+    - Question 10: Question_10.md
+    - Question 11: Question_11.md
+    - Question 12: Question_12.md
+    - Question 13: Question_13.md
+    - Question 14: Question_14.md
+    - Question 15: Question_15.md
+    - Talking Points for Practice: 9_talking_points.md
+    - Bonus - Final GPA Calculation: 8_final_gpa_calc.md
 theme: readthedocs
