@@ -63,7 +63,7 @@
                     </li>
                 </ul>
                 <ul>
-                    <li class="toctree-l1"><a class="reference internal" href="../5_other_tips/">Other Tips</a>
+                    <li class="toctree-l1"><a class="" href="../5_other_tips.mds">Other Tips</a>
                     </li>
                 </ul>
                 <ul>
@@ -110,8 +110,26 @@
                     <li class="toctree-l1 current"><a class="reference internal current" href="./">Question 9</a>
     <ul class="current">
     <li class="toctree-l2"><a class="reference internal" href="#part-1">Part 1</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#programmable-logic-devices">Programmable logic devices</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#hardware-description-language">Hardware description language</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#fpga">FPGA</a>
+    </li>
+        </ul>
     </li>
     <li class="toctree-l2"><a class="reference internal" href="#part-2">Part 2</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#system-engineering">System Engineering</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#principles-of-oop">Principles of OOP</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#patterns-in-oop">Patterns in OOP</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#mvc-architecture">MVC architecture</a>
+    </li>
+        </ul>
     </li>
     </ul>
                     </li>
@@ -138,6 +156,10 @@
                 </ul>
                 <ul>
                     <li class="toctree-l1"><a class="reference internal" href="../Question_15/">Question 15</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../9_talking_points/">Talking Points for Practice</a>
                     </li>
                 </ul>
                 <ul>
@@ -179,11 +201,15 @@
               
                 <h1 id="9-part-1-programmable-logic-devices-designing-a-digital-system-in-hardware-description-language-and-implementing-it-in-fpga-devices-part-2-basic-concepts-of-system-engineering-different-paradigms-characteristics-of-the-classical-methods-waterfall-evolution-incremental-agile-methods-fundamentals-and-patterns-of-oodesign-mvc">9. <code>PART 1</code> Programmable logic devices. Designing a digital system in hardware description language, and implementing it in FPGA devices. <code>PART 2</code> Basic concepts of system engineering, different paradigms. Characteristics of the classical methods: waterfall, evolution, incremental, agile methods. Fundamentals and patterns of OOdesign. MVC</h1>
 <h2 id="part-1">Part 1</h2>
+<h3 id="programmable-logic-devices">Programmable logic devices</h3>
 <p>Programmable logic devices or PLD is electronic component used to build reconfigurable digital circuits. Unlike integrated circuits which consist of logic gates and have a fixed function, a PLD has an undefined function at the time of manufacture. Before the PLD can be used in a circuit it must be programmed or reconfigured by using a specialized program. PLDs have programmable logic, compared to fixed logic which has permanent configurations. Fixed logic is great for a final production design, but it cannot be used to experiment or add new features, we could keep creating new fixed logic chips for every new feature to be tested but that is not cost-efficient. PLDs are easy to program, and affordable, new code can be developed on them and tested in live electronic circuits. Every Boolean logic can be decomposed into product-of-sum POS or sum-of-product SOP, PLDs are typically built with an array of AND gates and an array of OR gates to implement the SOP. A simple programming technology is to use fuses, in the original state all fuses are intact, once programmed the fuses are blown along the paths that must be removed to obtain the correct logic. PLDs are broadly classified into simple programmable logic devices and high-capacity programmable logic devices. Some examples of SPLDs are ROM or read-only memory, PLA or programmable logic array, and PAL or programmable array logic. A widely used example of HCPLD is the FPGA or field-programmable gate array.</p>
+<h3 id="hardware-description-language">Hardware description language</h3>
 <p>Hardware description language or HDL is a specialized computer language used to describe the structure and behavior of electronic circuits and digital logic circuits. A hardware description language enables a precise, formal description of an electronic circuit that allows for automated analysis and simulation of an electronic circuit. Most hardware description languages look like other software programming languages like C or ALGOL, a textual description consisting of expressions, statements, and control structures. One important difference between most programming languages and HDLs is that HDLs explicitly include the notion of time. HDLs provide flexible modeling capabilities and can express large complex designs with tens of millions of logic gates. Today there are two main HDLs used, VHDL and Verilog. VHDL is the more popular choice of the two, it stands for Very High-Speed Integration Circuit HDL and it is standardized by IEEE. VHDL allows the user to define data types, supports parallel or concurrent procedure calls, it contains a built-in mod operator, but it is more difficult to learn compared to Verilog. Verilog is easier to learn and is used for describing digital systems like a network switch or FPGAs. Verilog supports design at many layers of abstraction: behavioral level, register transfer level, and gate-level. Behavioral level describes a system concurrent algorithm. Every algorithm is sequential, functions and blocks are the main elements. Register-transfer level designs specify the characteristics of a circuit using operations and the transfer of data between the registers. In gate-level design, the characteristics of a system are described by logical links and their timing properties. All signals are discrete signals and can only have definite logical values, logical 1, logical 0, unknown logic value X, and high impedance state Z. The usable operations are predefined logic primitives or basic logic gates. Gate level design is not widely used since it is the lowest level and is inefficient, instead, this code is generated using synthesis tools. We also define the physical wire that represents the physical wire used for connections of gates or modules using the Wire keyword.</p>
+<h3 id="fpga">FPGA</h3>
 <p>FPGA stands for field-programmable gate array. FPGAs are essentially a huge array of gates that can be programmed and reconfigured with code. Some modern FPGAs also have more complex blocks like memory controllers, high-speed communications interfaces, PCIe endpoints, etc. but at the core, we have grids of gates that can be programmed. The most widely used FPGAs are manufactured by Xilinx, which is a subsidiary of fixed logic general-purpose processor manufacturer AMD. A basic Xilinx FPGA board can be programmed in the Vivado integrated development environment using the middle layer of abstraction called the register transfer level or RTL which lies between the strictly behavioral and the pure gate-level model. In RTL we can describe a sequence of data flow from a set of registers to the next at each clock cycle. RTL code can be converted to Verilog. Using Verilog, we can define modules where we state the wire and the clock. We begin initializing the clock to 0 and begin defining an endpoint for the clock. We begin the clock and then call whatever code block we want to, for example, we can define another module that will assign a variable to a wire and its complement to another wire. Using Vivido IDE, we can use the simulation model and run to see the output in the simulation in a waveform format. We can also inspect the waveform to make sure our Verilog module is working as expected. Connecting our physical FPGA board to the development computer, we can then run this script on the board and see the output by assigning the values to some LEDs for visual representation, in our case we can program the original value and its complement can be two different LEDs, for our defined clock period, these two LEDs can blink alternatively since they have a NOT gate between them.</p>
 <h2 id="part-2">Part 2</h2>
-<p>A system is a collection of different elements that interact to produce results that are not obtainable by the elements alone. An automobile is made up of thousands of parts and each part must work with the others if the vehicle is to function as desired. From a functional viewpoint, systems have inputs, processes, and outputs. Inputs are the resources put into a system, processes combine the resources to produce the output which can be a product, service, or enterprise. From a physical viewpoint, the system consists of mechanical, electrical, and software components. These systems are built in a way to provide feedback on if the system is working correctly or not. Systems engineering is when different engineers in different fields come together to work on a larger system, it is an interdisciplinary field. Systems engineering have five core concepts:</p>
+<h3 id="system-engineering">System Engineering</h3>
+<p>A system is a collection of different elements that interact to produce results that are not obtainable by the elements alone. An automobile is made up of thousands of parts and each part must work with the others if the vehicle is to function as desired. From a functional viewpoint, systems have inputs, processes, and outputs. Inputs are the resources put into a system, processes combine the resources to produce the output which can be a product, service, or enterprise. From a physical viewpoint, the system consists of mechanical, electrical, and software components. These systems are built in a way to provide feedback on if the system is working correctly or not. Systems engineering is when different engineers in different fields come together to work on a larger system, it is an interdisciplinary field. Systems engineering have five core concepts [VICAT]:</p>
 <ol>
 <li>Value – Systems provide value when they meet the needs of stakeholders.</li>
 <li>Context – The context of the system is important; the engineers need to consider where the products will be used.</li>
@@ -198,13 +224,22 @@
 <li>Incremental – This model of software engineering is when the requirements are divided into multiple standalone modules of the software development cycle. Each module goes through the requirements, design, implementation, and testing phases. Every subsequent release of the module adds function to the previous release, this process continues until the complete system is achieved.</li>
 <li>Agile – This model focuses on adaptability and customer satisfaction by rapid delivery of working software products. The agile method breaks the product into small incremental builds. These builds are provided in iteration, where each iteration typically lasts from one to three weeks. Every iteration involves cross functioning teams working on areas like planning, requirement analysis, design, coding, unit testing, etc. Customer interaction is the backbone of agile, the product development has complete transparency to the customer with timely working demos instead of lots of documentation. The customer then provides feedback and can change requirements or add to them. This is the most widely used model today and has many useful frameworks like SCRUM and Kanban.</li>
 </ol>
-<p>Object-oriented programs are made up of objects. An object packages both data and procedures. Procedures are typically called methods. Objects have procedures that can access and modify the data fields themselves. Most popular object-oriented programming languages are class-based like Java and C sharp. Object-oriented programming is based on 4 pillars, which are Abstraction, Polymorphism, Inheritance, and Encapsulation. Abstraction is when we separate the interface of a class from its implementation and focus on the interface, this is like treating the system as a black box and not worrying about how it is working. We only present a clean and easy-to-use interface via the class’s member functions. Polymorphism is when objects of different types can be accessed through the same interface, each type can provide its independent implementation of this interface. Inheritance allows us to create subclasses from parent classes, the subclass will inherit all objects and methods from its parent class and can be overridden to change the functionality as well. Encapsulation in OOP is when we bind the data and functions into a single class, by doing so we hide private details of a class from the outside world and only expose functionality that is important for interfacing with it.</p>
+<h3 id="principles-of-oop">Principles of OOP</h3>
+<p>Object-oriented programs are made up of objects. An object packages both data and procedures. Procedures are typically called methods. Objects have procedures that can access and modify the data fields themselves. Most popular object-oriented programming languages are class-based like Java and C sharp. Object-oriented programming is based on 4 pillars, which are Abstraction, Polymorphism, Inheritance, and Encapsulation.</p>
+<ul>
+<li>Abstraction is when we separate the interface of a class from its implementation and focus on the interface, this is like treating the system as a black box and not worrying about how it is working. We only present a clean and easy-to-use interface via the class’s member functions.</li>
+<li>Polymorphism is when objects of different types can be accessed through the same interface, each type can provide its independent implementation of this interface.</li>
+<li>Inheritance allows us to create subclasses from parent classes, the subclass will inherit all objects and methods from its parent class and can be overridden to change the functionality as well.</li>
+<li>Encapsulation in OOP is when we bind the data and functions into a single class, by doing so we hide private details of a class from the outside world and only expose functionality that is important for interfacing with it.</li>
+</ul>
+<h3 id="patterns-in-oop">Patterns in OOP</h3>
 <p>Design patterns in OO refer to using patterns that can be followed to easily solve problems in object-oriented programming:</p>
 <ol>
 <li>Creational – Creational patterns have to do with the creation of objects. It emphasizes the automatic creation of objects; a function or method can call the code necessary to instantiate a new object on the programmer’s behalf. This allows us to create new objects faster where there might be many defaults, in the case where we might need to change a default, we can do so explicitly for that object.</li>
 <li>Structural – Structural design patterns have to do with making larger structures from smaller objects and classes. This allows us to leverage relationships between classes and objects to form larger structures, thus we use inheritance here.</li>
 <li>Behavioral – Behavioral patterns are concerned with the communication of different objects with each other, or the interaction between objects and how they affect each other. An example could be a bottle of water object and a human object, the human drinks the bottle of water using the bottle of water’s drink method. This causes the thirst attribute of the human object to become false and also causes the water level attribute of the bottle of water to be lower in value.</li>
 </ol>
+<h3 id="mvc-architecture">MVC architecture</h3>
 <p>MVC architecture or Model View Controller architecture pattern turns complex applications development into a much more manageable process. It allows several developers to simultaneously work on the application. MVC has three components, Model is the backend that contains all the data logic, View is the frontend or graphical user interface, Controller is the brains of the applications that control how data is displayed. MVC pattern is widely used for modern web applications since it allows the application to be scalable, maintainable, and easy to expand. MVC pattern helps us break up the frontend and backend code into separate components. This way it is much easier to manage and make changes to either side without them interfering with each other. The model component is where the data is managed, data can come from a database, API, or a JSON object. The view is the user interface, view’s job is to decide what the user will see on the screen and how. The Controller is the brain component, it is responsible to pull, modify and provide data to the user. Essentially the controller is the link between the view and model. Some frameworks using MVC concepts are Django and Ruby on Rails.</p>
               
             </div>
